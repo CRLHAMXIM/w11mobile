@@ -33,12 +33,53 @@ Before start unlocking you have to download
 - FFU-file
 - Emergency-files
 # 1- Open "WPinternals"
-A- Download FFU + Emergency Files
-- Goto "Download"
-- Scroll down then click "Search"
-- After the results appear Click "Download All"
-- It will take some time to download
-- If you already have the files scroll to "Repository"
-- Click on "Add Existing FFU-file"
-- Select your file
- B- Unlock bootloader
+# A- Download FFU + Emergency Files
+- 1.Goto "Download"
+- 2.Scroll down then click "Search"
+- 3.After the results appear Click "Download All"
+- 4.It will take some time to download
+- 5.If you already have the files scroll to "Repository"
+- 6.Click on "Add Existing FFU-file"
+- 7.Select your file
+# B Unlock bootloader
+- 1.Goto "Unlock bootloader"
+- 2.Click "OK" to switch to "Flash-mode"
+- 3.When the phone in "Flash-mode", scroll down and click "Unlock" after reading the descriptions
+- 4.Multiple reboots expected so you have to wait and don't interrupt the process
+- 5.Wait until you see this message "You need to manually reset your phone now!"
+- 6.Restart the phone
+- 7.Wait until you see this message "Bootloader unlocked successfully"
+- 8.If the phone already unlocked expected to boot to Mass storage instead of this message
+# Know Problems
+if stuck into Multiple reboots for too long time or you got "Unlock failed", this could happen because of:
+- 1.You didn't select FFU-file and Emergency-files
+- 2.The FFU-file is different than the current system (maybe you flashed different one before)
+- If you bricked the system do the following:
+- 1.Boot into Flash-Mode by pressing Power + Volume Down once the phone vibrate hold only Volume Down
+- 2.Then open WDRT for possible restore
+- If WDRT didn't help check the post below for alternate restore option
+- https://xdaforums.com/t/bricked-950xl.3990253/#post-83830313
+# C- Switch to Flash-mode
+- Goto "Manual mode"
+- Select "Switch to Flash-mode"
+- Wait until the phone get in the "Flash-mode"
+- Now close "WPinternals"
+# Phase 2 (Install the Custom Firmware)
+Before flashing if you aware about your files and not sure about the process
+Check "Backup Solution" at the end of this post
+- Open "WDRT" folder
+- Click on "File" at the top left of the window
+- Select Open PowerShell
+- Select Open As Administrator
+- Now run the following command:
+- .\thor2 -mode uefiflash -ffufile "D:\Windows_11_MOBILE_TEST1.ffu"
+- "D:\.." is an example, use your own location
+- Press Enter
+- Wait until the process complete
+- Now to restart run the following command:
+- .\thor2 -mode rnd -reboot
+- Note if you are using CMD remove the ".\" from the command at the beginning
+- After the restart, expected to see the boot menu
+Press on the camera button to select
+- done
+# Backup Solution:
