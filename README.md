@@ -32,5 +32,13 @@ Hello, I am hamxim, I am a lumia rom custom person. Today I will announce to eve
 Before start unlocking you have to download
 - FFU-file
 - Emergency-files
-1- Open "WPinternals"
+# 1- Open "WPinternals"
 A- Download FFU + Emergency Files
+- Goto "Download"
+- Scroll down then click "Search"
+- After the results appear Click "Download All"
+- It will take some time to download
+- If you already have the files scroll to "Repository"
+- Click on "Add Existing FFU-file"
+- Select your file
+ B- Unlock bootloader
