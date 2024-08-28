@@ -32,3 +32,5 @@ Hello, I am hamxim, I am a lumia rom custom person. Today I will announce to eve
 Before start unlocking you have to download
 - FFU-file
 - Emergency-files
+1- Open "WPinternals"
+A- Download FFU + Emergency Files
