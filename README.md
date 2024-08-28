@@ -5,7 +5,7 @@ If Youtuber "Fadil Fadz" sees this, I would like to take the way to install cust
 
 Hello, I am hamxim, I am a lumia rom custom person. Today I will announce to everyone a project that has been in progress for 1 month, which is the lumia 950xl rom windows 11 mobile (w10mobile) project. Currently it has test version 2. When the project reaches test 4, I will share it with everyone from test 1 to the latest test.
 
-PROS:
+#PROS:
 -Built-in updated apps like (Paint 3D, myTube, 8 Zip...etc)
 -Built-in CMD (Real CMD)
 -You can run (.bat) files
