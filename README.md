@@ -19,3 +19,4 @@ PROS:
 -You can install advanced apps using CMD like (Powershell, XAP installer, DotNet Console..etc)
 -Nice icons for the default apps
 
+
